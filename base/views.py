@@ -11,6 +11,9 @@ from django.contrib import messages
 # Create your views here.
 def loginPage(request):
 
+    if request.user.is_authenticated:
+        return redirect('home')
+
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -97,7 +100,7 @@ def updateRoom(request, pk):
 @login_required(login_url='login')
 def deleteRoom(request, pk):
     room = Room.objects.get(id=pk)
-    
+
     if request.user != room.host:
         return HttpResponse('You are not allowed here!!')
     
