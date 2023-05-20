@@ -70,7 +70,7 @@
                 <p>Hosted By</p>
                 <a href="{% url 'user-profile' room.host.id %}" class="room__author">
                   <div class="avatar avatar--small">
-                    <img src="https://randomuser.me/api/portraits/men/37.jpg" />
+                    <img src="{{room.host.avatar.url}}" />
                   </div>
                   <span>@{{room.host.username}}</span>
                 </a>
@@ -89,7 +89,7 @@
                       <div class="thread__author">
                         <a href="{% url 'user-profile' message.user.id %}" class="thread__authorInfo">
                           <div class="avatar avatar--small">
-                            <img src="https://randomuser.me/api/portraits/men/37.jpg" />
+                            <img src="{{message.user.avatar.url}}" />
                           </div>
                           <span>@{{message.user.username}}</span>
                         </a>
@@ -135,7 +135,7 @@
             {% for participant in participants %}
             <a href="{% url 'user-profile' participant.id %}" class="participant">
               <div class="avatar avatar--medium">
-                <img src="https://randomuser.me/api/portraits/men/37.jpg" />
+                <img src="{{participant.avatar.url}}" />
               </div>
               <p>
                 {{participant.username}}
