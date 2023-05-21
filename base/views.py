@@ -28,7 +28,7 @@ def loginPage(request):
             login(request, user)
             return redirect('home')
         else:
-            messages.error(request, "Username OR password does not exist.")
+            messages.error(request, "Email OR password does not exist.")
 
     context = {
         'page': page
