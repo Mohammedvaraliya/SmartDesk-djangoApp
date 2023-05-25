@@ -14,3 +14,5 @@ SmartDesk is a web application developed using the Django framework. It provides
 
 **Engagement and Collaboration:** SmartDesk encourages active engagement and collaboration among users. By providing a platform for students with similar technology interests to connect, it facilitates the exchange of ideas, knowledge sharing, and networking.
 
+## Demo and Overview
+
