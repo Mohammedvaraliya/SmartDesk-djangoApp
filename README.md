@@ -26,14 +26,14 @@ SmartDesk is a web application developed using the Django framework. It provides
 <p align="center">
   Authentication Page
 </p>
-<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/ea9af242-076f-40eb-a075-17c9f316f894">
+<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/2f2f5a07-d877-4a26-a288-458abe4b139c">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
   User Profile
 </p>
-<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/326183c8-1aa4-4ef6-9d86-331607a0e8d9">  
+<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/6946bad2-6222-48e9-8d81-9e3fc6f729eb">
 </td>
 </tr>
 <tr>
@@ -42,14 +42,14 @@ SmartDesk is a web application developed using the Django framework. It provides
 <p align="center">
   Feed Home
 </p>
-<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/ecf8782b-28f0-4d69-9877-5b2db671f0f9">  
+<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/d9df56c9-90ca-4d93-a0e7-552aba9914b7">
 </td>
 <td width="50%">
 <br>
 <p align="center">
   Room Conversation Preview
 </p>
-<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/9a08f281-72a9-4239-ac9b-76500b5f885d">  
+<img src="https://github.com/Mohammedvaraliya/smart_desk-djangoApp/assets/95087498/81625748-1ef1-4e22-a57f-febdc265e0a0">
 </td>
 </tr>
 </table>
