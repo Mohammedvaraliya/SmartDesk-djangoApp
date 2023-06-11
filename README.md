@@ -16,7 +16,8 @@ SmartDesk is a web application developed using the Django framework. It provides
 
 ## Demo and Overview
 
-This project has been deployed on a platform, and you can access the application by visiting the following link:
+**Demo**
+
 
 ## License
 
